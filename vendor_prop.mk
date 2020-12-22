@@ -41,3 +41,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds
+
+# Maintainer
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="kprkpr"
